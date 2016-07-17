@@ -1,0 +1,35 @@
+{
+  "name": "crxautoreload",
+  "version": "0.1.1",
+  "description": "chrome extension development runtime auto reload",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "reload.js.tpl"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/icai/crxautoreload.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "development",
+    "runtime",
+    "reload",
+    "gulp"
+  ],
+  "author": "Terry Cai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/icai/crxautoreload/issues"
+  },
+  "homepage": "https://github.com/icai/crxautoreload#readme",
+  "dependencies": {
+    "lodash.template": "^4.2.5",
+    "object-assign": "^4.1.0"
+  }
+}
