@@ -14,7 +14,7 @@ you may install this plugin with this command:
 npm install crxautoreload --save-dev
 ```
 
-##Setup
+## Setup
 
 Once the plugin has been installed, it may be enabled inside your gulpfile with this line of JavaScript:
 
@@ -60,7 +60,7 @@ In the above example, whenever there are changes to the project's Javascript or 
 On the first run of `autoreload` the `reload.js` will be created in the designated `extensionDir`. Its job is to check the `reload.html` file every second to see if the timestamp has changed. If the timestamp has changed a `chrome.runtime.reload()` will be executed on `reload.html`. This eliminates the need to go to `chrome://extensions` and perform a manual refresh.
 
 
-##Options
+## Options
 
 
 |   Property   | Necessary |   Type   | Plugin default value |
